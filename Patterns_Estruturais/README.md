@@ -1,0 +1,2 @@
+# Patterns_Estruturais
+Atividades

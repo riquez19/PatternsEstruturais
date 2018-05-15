@@ -1,10 +1,25 @@
 package projeto_qualidade;
 
+
+
 public class chamado {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	public String descChamado;
+	public String filaChamado;
+	
+	public String getDescChamado() {
+		return descChamado;
+	}
+	public void setDescChamado(String descChamado) {
+		this.descChamado = descChamado;
+	}
+	public String getFilaChamado() {
+		return filaChamado;
+	}
+	public void setFilaChamado(String filaChamado) {
+		this.filaChamado = filaChamado;
+	}
+	
 
 	}
 
-}
