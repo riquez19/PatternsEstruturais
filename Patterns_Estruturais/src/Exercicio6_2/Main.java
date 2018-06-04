@@ -47,7 +47,7 @@ public class Main {
 		sort.sort(bubbleV);
 		tempo = System.currentTimeMillis() - antes;
 		System.out.println("BubbleSort (" + tempo + " ms).");
-		// imprimirVetor(bubbleV);
+		imprimirVetor(bubbleV);
 
 		// Insertion sort
 		sort = new InsertionSort();
@@ -55,7 +55,7 @@ public class Main {
 		sort.sort(insertionV);
 		tempo = System.currentTimeMillis() - antes;
 		System.out.println("InsertionSort (" + tempo + " ms).");
-		// imprimirVetor(insertionV);
+		imprimirVetor(insertionV);
 
 		// Merge sort
 		sort = new MergeSort();
@@ -63,7 +63,7 @@ public class Main {
 		sort.sort(mergeV);
 		tempo = System.currentTimeMillis() - antes;
 		System.out.println("MergeSort (" + tempo + " ms).");
-		// imprimirVetor(mergeV);
+		imprimirVetor(mergeV);
 
 		// Quick sort
 		sort = new QuickSort();
@@ -71,7 +71,7 @@ public class Main {
 		sort.sort(quickV);
 		tempo = System.currentTimeMillis() - antes;
 		System.out.println("QuickSort (" + tempo + " ms).");
-		// imprimirVetor(quickV);
+		imprimirVetor(quickV);
 
 		System.out.println("\n----Finalizado!----");
 	}

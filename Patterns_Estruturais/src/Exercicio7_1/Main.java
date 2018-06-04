@@ -1,9 +1,9 @@
 package Exercicio7_1;
 
 public class Main {
-	// Método principal
+	
 	public static void main(String[] args) throws Exception {
-		// Manipula de várias formas.
+		
 		ManipuladorAbstrato manipulador;
 
 		System.out.println("-------------------------------");
